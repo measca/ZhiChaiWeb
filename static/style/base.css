@@ -1,0 +1,22 @@
+@font-face {
+    font-family: lthj;
+    src: url('../font/lthj.TTF'); /* IE9+ */
+    font-weight: bold;
+}
+
+body, html {
+    margin: 0;
+    font-family: lthj;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.body-context {
+    width: 1000px;
+    margin: auto;
+}

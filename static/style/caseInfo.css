@@ -1,0 +1,58 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.case-info-context {
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.case-info-context:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.swiper-slide {
+    height: 580px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.swiper-slide img{
+    display: inline-block;
+    height: 100%;
+}
+
+.case-info-left {
+    float: left;
+    width: 780px;
+}
+
+.case-info-right {
+    float: right;
+    width: 200px;
+}
+.case-info-right strong{
+    font-size: 20px;
+}
+
+.case-info-right .control-btns {
+    margin-top: 80px;
+}
+
+.case-info-right .control-btns a,.case-info-right .control-btns button{
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 60px;
+    cursor: pointer;
+}
+.case-info-right .control-btns img {
+    display: block;
+    width: 100%;
+}

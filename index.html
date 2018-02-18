@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/base.css">
+    <link rel="stylesheet" href="./static/style/index.css">
+</head>
+<body>
+    <main class="body-context index-context">
+        <div class="index-left-context">
+            <img src="./static/img/carousel/01.jpg" alt="">
+            <img src="./static/img/carousel/02.jpg" alt="" style="display:block">
+            <img src="./static/img/carousel/03.jpg" alt="">
+            <img src="./static/img/carousel/04.jpg" alt="">
+            <img src="./static/img/carousel/05.jpg" alt="">
+            <img src="./static/img/carousel/06.jpg" alt="">
+            <img src="./static/img/carousel/07.jpg" alt="">
+        </div>
+        <nav class="index-right-context">
+            <a href="./index.html" class="logo">
+                <img src="./static/img/logo.png" />
+            </a>
+            <ul class="menu">
+                <li>
+                    <a>首页</a>
+                </li>
+                <li>
+                    <a href="./concept.html" class="selected">
+                        知侪概念
+                    </a>
+                </li>
+                <li>
+                    <a href="./case.html">
+                        案例
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">服务 / 联系</a>
+                </li>
+            </ul>
+            <p class="record">ICP0000000</p>
+        </nav>
+    </main>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        setInterval(function() {
+            var index = $(".index-left-context img").index($(".index-left-context img:visible"));
+            if($(".index-left-context img").length <= index + 1) {
+                $(".index-left-context img").eq(index).fadeOut(1000);
+                $(".index-left-context img").eq(0).fadeIn(1000);
+            } else {
+                $(".index-left-context img").eq(index).fadeOut(1000);
+                $(".index-left-context img").eq(index + 1).fadeIn(1000);
+            }
+        }, 3000);
+    </script>
+</body>
+</html>

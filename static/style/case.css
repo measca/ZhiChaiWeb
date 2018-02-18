@@ -1,0 +1,101 @@
+.case-context {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.case-context:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.case-context .record {
+    width: 250px;
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.case-left {
+    float: left;
+    width: 700px;
+}
+
+.case-list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.case-list li{
+    float: left;
+    width: 33.33%;
+}
+
+.case-list li a{
+    display: block;
+    margin: auto 20px;
+}
+
+.case-list li a img{
+    width: 193px;
+    height: 145px;
+    display: block;
+}
+
+.case-list li a strong{
+    display: block;
+    padding: 10px 0;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.case-right {
+    float: right;
+    width: 250px;
+}
+
+.case-right .logo {
+    width: 200px;
+    display: block;
+}
+
+.case-right .logo img{
+    display: block;
+    width: 100%;
+}
+
+.case-right nav{
+    margin-top: 50px;
+}
+.case-right nav a{
+    display: block;
+    color: #000;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.case-right nav a.selected{
+    color: #BA4F4E;
+}
+
+.case-right .control-btns{
+    margin-top: 40px;
+}
+
+.case-right .control-btns a,.case-right .control-btns button{
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 60px;
+    cursor: pointer;
+}
+.case-right .control-btns img {
+    display: block;
+    width: 100%;
+}

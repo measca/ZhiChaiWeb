@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+    <link rel="stylesheet" href="./static/style/base.css">
+    <link rel="stylesheet" href="./static/style/caseInfo.css">
+</head>
+<body>
+    <main class="body-context case-info-context">
+        <div class="case-info-left">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./static/img/case/01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./static/img/case/03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="case-info-right">
+            <strong>中山港口.保利国际-2018</strong>
+            <div class="control-btns">
+                <button onclick="mySwiper.slidePrev()"><img src="./static/img/left-btn.png" alt=""></button>
+                <button onclick="mySwiper.slideNext()"><img src="./static/img/right-btn.png"></button>
+                <a href="./index.html"><img src="./static/img/out.png" alt=""></a>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+    <script type="text/javascript">
+        var mySwiper = new Swiper('.swiper-container', {
+            // simulateTouch: false
+        })
+    </script>
+</body>
+</html>
