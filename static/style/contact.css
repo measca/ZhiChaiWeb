@@ -4,36 +4,41 @@
     position: relative;
 }
 
+.contact-context .record {
+    font-size: 13px;
+}
+
 .contact-context article {
     padding: 150px 200px;
 }
 
 .contact-context article p{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
 }
 
 .contact-context article strong{
     color: #B22222;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .contact-context article address{
     position: relative;
-    padding-left: 160px;
+    padding-left: 108px;
     margin-top: 5px;
 }
 .contact-context article img{
     position: absolute;
     top: 0;
     left: 0;
-    width: 120px;
+    width: 84px;
 }
 .contact-context article span{
     display: block;
-    padding-bottom: 30px;
+    padding-bottom: 18px;
     font-style: normal;
+    font-size: 14px;
 }
 
 .contact-context .close {
@@ -41,7 +46,7 @@
     top: 0;
     right: 0;
     display: block;
-    width: 70px;
+    width: 52px;
 }
 .contact-context .close img{
     width: 100%;

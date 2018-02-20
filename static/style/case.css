@@ -1,5 +1,5 @@
 .case-context {
-    margin-top: 50px;
+    margin-top: 28px;
     margin-bottom: 90px;
     position: relative;
 }
@@ -13,9 +13,9 @@
 .case-context .record {
     width: 250px;
     position: absolute;
-    bottom: 24px;
+    bottom: 28px;
     right: 0;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: normal;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .case-right .logo {
-    width: 200px;
+    width: 180px;
     display: block;
 }
 
@@ -69,12 +69,12 @@
 }
 
 .case-right nav{
-    margin-top: 50px;
+    margin-top: 38px;
 }
 .case-right nav a{
     display: block;
     color: #000;
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px 0;
 }
 
@@ -83,7 +83,8 @@
 }
 
 .case-right .control-btns{
-    margin-top: 40px;
+    margin-top: 56px;
+    margin-left: -9px;
 }
 
 .case-right .control-btns a,.case-right .control-btns button{
@@ -92,8 +93,12 @@
     margin: 0;
     padding: 0;
     display: block;
-    width: 60px;
+    width: 43px;
     cursor: pointer;
+    padding: 2px 0;
+}
+.case-right .control-btns a {
+    width: 50px;
 }
 .case-right .control-btns img {
     display: block;

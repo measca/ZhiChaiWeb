@@ -1,0 +1,37 @@
+.service-context {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    position: relative;
+}
+.service-context .record {
+    font-size: 13px;
+}
+.service-context article {
+    padding: 150px 200px;
+}
+.service-context article h1{
+    font-size: 18px;
+}
+
+.service-context article p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.service-context article strong{
+    color: #B22222;
+    font-size: 16px;
+}
+
+.service-context .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 55px;
+}
+.service-context .close img{
+    width: 100%;
+    display: block;
+}

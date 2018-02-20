@@ -5,7 +5,7 @@ body {
 }
 
 .case-info-context {
-    margin-top: 40px;
+    margin-top: 36px;
     margin-bottom: 90px;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 .swiper-slide {
-    height: 580px;
+    height: 527px;
     text-align: center;
     overflow: hidden;
 }
@@ -33,7 +33,7 @@ body {
 
 .case-info-right {
     float: right;
-    width: 200px;
+    width: 189px;
 }
 .case-info-right strong{
     font-size: 20px;
@@ -41,6 +41,7 @@ body {
 
 .case-info-right .control-btns {
     margin-top: 80px;
+    margin-left: -9px;
 }
 
 .case-info-right .control-btns a,.case-info-right .control-btns button{
@@ -49,8 +50,12 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    width: 60px;
+    width: 43px;
     cursor: pointer;
+    padding: 2px 0;
+}
+.case-info-right .control-btns a {
+    width: 50px;
 }
 .case-info-right .control-btns img {
     display: block;

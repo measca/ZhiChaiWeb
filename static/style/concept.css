@@ -1,5 +1,5 @@
 .concept-context {
-    margin-top: 50px;
+    margin-top: 27px;
     margin-bottom: 90px;
     position: relative;
 }
@@ -7,6 +7,7 @@
 .concept-context .record{
     clear: both;
     padding-top: 50px;
+    font-size: 13px;
 }
 
 .concept-context .close {
@@ -14,7 +15,7 @@
     top: 0;
     right: 0;
     display: block;
-    width: 70px;
+    width: 58px;
 }
 .concept-context .close img{
     width: 100%;
@@ -39,17 +40,17 @@
 .concept-left strong{
     display: block;
     color: #911110;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     margin-bottom: 5px;
 }
 .concept-left em{
     font-style: normal;
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 5px;
 }
 .concept-left p{
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 10px;
     line-height: 23px;
 }
@@ -60,21 +61,21 @@
 }
 
 .concept-right article{
-    padding-top: 390px;
+    padding-top: 298px;
     padding-left: 50px;
     padding-right: 100px;
 }
 
 .concept-right strong{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
     color: #921112;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     display: block;
 }
 
 .concept-right p{
-    font-size: 16px;
-    padding-bottom: 30px;
+    font-size: 14px;
+    padding-bottom: 11px;
     line-height: 23px;
 }
